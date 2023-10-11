@@ -2,13 +2,13 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        // create a scanner to take input
+        // create a scanner to take input from user.
         Scanner user = new Scanner(System.in);
-        // make a menu and welcome message
+        // make a menu and welcome message.
         System.out.println("Hello and welcome to the menu");
         System.out.println("Please choose one option, 1 = Pay salary, 2 = create an new invoice, 3 = pay one or more invoice");
         try {
-            // read the user's choice
+            // read the user's choice.
             int usersChoice = user.nextInt();
             // option 1 pay salaries.
             if (usersChoice == 1) {
